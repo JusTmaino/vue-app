@@ -20,6 +20,18 @@ npm run dev
    --> "AppVideo" which handle the videos display, edit and delete actions from the gallery.
    --> "AddVideo" which handle the add videos to the gallery.
    
+   
+- A Video is composed of :
+    - id : it is the youtube video id as default
+    - url : the video's url on youtube
+    - name : the title of the youtube's video
+    - description : the description of the video
+    - pictureUrl : the thumbnails url of the youtube video
+    - published : the date of the video release on youtube
+    - rating : the actual rate , it is from 1 to 5 stars
+    - ratingReadOnly : boolean to allow only one time vote on a video
+    
+   
 - Add a video is based on a youtube URL , copy /paste it on the url field in the "Add FORM" and
   by using youtube API , the title and the description will be set directly on the appropriate fields
 
